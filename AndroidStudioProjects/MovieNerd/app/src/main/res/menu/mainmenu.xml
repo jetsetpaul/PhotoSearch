@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_lists"
+        android:icon="@drawable/ic_list"
+        android:title="Lists"
+        app:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings">
+    </item>
+
+</menu>

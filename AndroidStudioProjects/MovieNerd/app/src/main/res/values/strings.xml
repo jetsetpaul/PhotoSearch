@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MovieNerd</string>
+    <string name="search_hint">"Tom Hanks"</string>
+    <string-array name="tmdb_genre_values">
+        <item>"Action"|28</item>
+        <item>"Adventure"|12</item>
+        <item>"Animation"|16</item>
+        <item>"Comedy"|35</item>
+        <item>"Crime"|80</item>
+        <item>"Documentary"|99</item>
+        <item>"Drama"|18</item>
+        <item>"Family"|10751</item>
+        <item>"Fantasy"|14</item>
+        <item>"Foreign"|10769</item>
+        <item>"History"|36</item>
+        <item>"Horror"|27</item>
+        <item>"Music"|10402</item>
+        <item>"Mystery"|9648</item>
+        <item>"Romance"|10749</item>
+        <item>"Science Fiction"|878</item>
+        <item>"TV Movie"|10770</item>
+        <item>"Thriller"|53</item>
+        <item>"War"|10752</item>
+        <item>"Western"|37</item>
+    </string-array>
+    <string-array name="tmdb_date_values">
+        <item>"1910s"|"&amp;release_date.gte=1910-01-01&amp;release_date.lte=1920-01-01"</item>
+        <item>"1920s"|"&amp;release_date.gte=1920-01-01&amp;release_date.lte=1930-01-01"</item>
+        <item>"1930s"|"&amp;release_date.gte=1930-01-01&amp;release_date.lte=1940-01-01"</item>
+        <item>"1940s"|"&amp;release_date.gte=1940-01-01&amp;release_date.lte=1950-01-01"</item>
+        <item>"1950s"|"&amp;release_date.gte=1950-01-01&amp;release_date.lte=1960-01-01"</item>
+        <item>"1960s"|"&amp;release_date.gte=1960-01-01&amp;release_date.lte=1970-01-01"</item>
+        <item>"1970s"|"&amp;release_date.gte=1970-01-01&amp;release_date.lte=1980-01-01"</item>
+        <item>"1980s"|"&amp;release_date.gte=1980-01-01&amp;release_date.lte=1990-01-01"</item>
+        <item>"1990s"|"&amp;release_date.gte=1990-01-01&amp;release_date.lte=2000-01-01"</item>
+        <item>"2000s"|"&amp;release_date.gte=2000-01-01&amp;release_date.lte=2010-01-01"</item>
+        <item>"2010s"|"&amp;release_date.gte=2010-01-01&amp;release_date.lte=2020-01-01"</item>
+    </string-array>
+    <string-array name="tmdb_score_average_values">
+        <item>"1/10"|"&amp;vote_average.gte=1.0"</item>
+        <item>"2/10"|"&amp;vote_average.gte=2.0"</item>
+        <item>"3/10"|"&amp;vote_average.gte=3.0"</item>
+        <item>"4/10"|"&amp;vote_average.gte=4.0"</item>
+        <item>"5/10"|"&amp;vote_average.gte=5.0"</item>
+        <item>"6/10"|"&amp;vote_average.gte=6.0"</item>
+        <item>"7/10"|"&amp;vote_average.gte=7.0"</item>
+        <item>"8/10"|"&amp;vote_average.gte=8.0"</item>
+        <item>"9/10"|"&amp;vote_average.gte=9.0"</item>
+        <item>"10/10"|"&amp;vote_average.gte=9.9"</item>
+    </string-array>
+
+</resources>
